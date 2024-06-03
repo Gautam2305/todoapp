@@ -3,7 +3,7 @@ const createTodo = zod.object({
     title: zod.string(),
     description: zod.string()
 })
-const updateTodo = zpd.object({
+const updateTodo = zod.object({
     id: zod.string()
 })
 
